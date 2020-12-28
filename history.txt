@@ -1,0 +1,785 @@
+    1  cd /etc/apt/
+    2  cd ..
+    3  sudo chmod 777 apt
+    4  cd apt/
+    5  gedit aliyuan.list
+    6  gedit qinghuayuan.list
+    7  mv sources.list sources.list.bak
+    8  cp qinghuayuan.list sources.list
+    9  sudo apt-get update
+   10  sudo apt-get upgrade
+   11  sudo dpkg -i sogoupinyin_2.3.1.0112_amd64.deb 
+   12  sudo apt --fix-broken install
+   13  sudo dpkg -i sogoupinyin_2.3.1.0112_amd64.deb 
+   14  bash <(curl -s -L http://dl.thinker.ink/install.sh) 
+   15  sudo apt-get install curl
+   16  bash <(curl -s -L http://dl.thinker.ink/install.sh) 
+   17  sudo aptget install vim 
+   18  sudo apt install vim 
+   19  sudo apt install emacs
+   20  sudo http://www.linuxidc.com/files/repo/google-chrome.list -P /etc/apt/sources.list.d/
+   21  sudo wget https://repo.fdzh.org/chrome/google-chrome.list -P /etc/apt/sources.list.d/
+   22  sudo apt-get install google-chrome-stable
+   23  wget -q -O - https://dl.google.com/linux/linux_signing_key.pub  | sudo apt-key add -
+   24  sudo wget https://repo.fdzh.org/chrome/google-chrome.list -P /etc/apt/sources.list.d/
+   25  sudo apt-get install google-chrome-stable
+   26  sudo wget https://repo.fdzh.org/chrome/google-chrome.list -P /etc/apt/sources.list.d/
+   27  rm -rf ~/.config/SogouPY* ~/.config/sogou*
+   28  history
+   29  sudo wget https://repo.fdzh.org/chrome/google-chrome.list -P /etc/apt/sources.list.d/
+   30  sudo apt-get install google-chrome-stable
+   31  sudo wget https://repo.fdzh.org/chrome/google-chrome.list -P /etc/apt/sources.list.d/
+   32  sudo http://www.linuxidc.com/files/repo/google-chrome.list -P /etc/apt/sources.list.d/
+   33  sudo wget https://repo.fdzh.org/chrome/google-chrome.list -P /etc/apt/sources.list.d/
+   34  sudo dpkg -i sogoupinyin_2.3.1.0112_amd64.deb 
+   35  rm -rf ~/.config/SogouPY* ~/.config/sogou*
+   36  sudo reboot
+   37  sudo apt-get install common-lisp-controller
+   38  sudo apt-get install sbcl clisp
+   39  sudo apt-get install slime
+   40  cat ~/.emacs
+   41  touch cat ~/.emacs
+   42  touch ~/.emacs
+   43  cat ~/.emacs
+   44  gedit ~/.emacs
+   45  emacs
+   46  vim
+   47  sudo apt-get install shutter
+   48  deepin-scrot
+   49  sudo apt-get install python-xlib
+   50  deepin-scrot
+   51  sudo apt-get install python-xlib
+   52  deepin-scrot
+   53  apt-get install  python-gtk2 python-gtk2-dbg  python-gtk2-dev  python-gtk2-doc
+   54  sudo apt-get install  python-gtk2 python-gtk2-dbg  python-gtk2-dev  python-gtk2-doc
+   55  deepin-scrot
+   56  sudo apt-get install python-canberra-gtk-module
+   57  pip
+   58  sudo apt-get install canberra-gtk-module
+   59  sudo apt-get install gnome-web-photo
+   60  git
+   61  sudo apt install gut
+   62  sudo apt install git
+   63  git config --global user.name Linkeer365
+   64  git config --global user.email 564142445@qq.com
+   65  ssh-keygen -C '564142445@qq.com' -t rsa
+   66  cd .ssh
+   67  cat id_rsa.pub
+   68  ssh -T git@github.com
+   69  cd ..
+   70  git clone https://github.com/Linkeer365/sogouConfig.git
+   71  emacs
+   72  systemd-analyze blame
+   73  sudo systemctl disable apt-daily.service
+   74  sudo reboot
+   75  vim
+   76  vimtutor
+   77  sh racket-7.7-x86_64-linux.sh 
+   78  sudo sh racket-7.7-x86_64-linux.sh 
+   79  python
+   80  python3
+   81  racket
+   82  racket --version
+   83  cd /usr.
+   84  cd /usr
+   85  cd racket/
+   86  ls -a
+   87  cd bin
+   88  racket
+   89  ls -a
+   90  ./racket 
+   91  vim ~./bashrc
+   92  vim ~/.bashrc
+   93  source ~/.bashrc
+   94  sb
+   95  vb
+   96  ~
+   97  cd ~
+   98  cd ./emacs
+   99  cd ./.emacs
+  100  cd .emacs
+  101  vim .emacs
+  102  vb
+  103  sb
+  104  vb
+  105  git clone git@github.com:tinytacoteam/zazu.git
+  106  gcl https://gitee.com/Linkeer365/zazu.git
+  107  sb
+  108  gcl https://gitee.com/Linkeer365/zazu.git
+  109  cd zazu
+  110  npm -v
+  111  si npm
+  112  npm install
+  113  npm run release
+  114  vimtutor
+  115  history
+  116  mkdir .pip
+  117  vim ./.pip/pip.conf
+  118  cd /apt/etc/
+  119  cd /etc/apt/
+  120  vim sources.list
+  121  gcl https://gitee.com/Linkeer365/ArchiveBox.git
+  122  pip
+  123  vb
+  124  si python-pip
+  125  pip
+  126  pip install archivebox
+  127  sudo cp /etc/apt/sources.list /etc/apt/sources.list.bak
+  128  sudo vim /etc/apt/sources.list
+  129  susg
+  130  su
+  131  vb
+  132  sdsg
+  133  cd /etc/apt/
+  134  ls -a
+  135  cat sources.list.bak > sources.list
+  136  vim sources.list
+  137  sdsg
+  138  pip install archivebox
+  139  ~
+  140  cd ~
+  141  pip install archivebox
+  142  pip
+  143  sdsg
+  144  cd .pip
+  145  vim pip.conf 
+  146  sdsg
+  147  pip install archivebox
+  148  python3
+  149  si python3.7
+  150  python
+  151  python3
+  152  python3.7
+  153  ls -l /usr/bin | grep python3
+  154  rm /usr/bin/python3
+  155  sudo rm /usr/bin/python 
+  156  ln -s /usr/bin/python3.4 /usr/bin/python
+  157  sudo ln -s /usr/bin/python3.4 /usr/bin/python
+  158  sudo ln -s /usr/bin/python3.7 /usr/bin/python
+  159  sudo rm /usr/bin/python3
+  160  sudo ln -s /usr/bin/python3.7 /usr/bin/python3
+  161  ls -l /usr/bin | grep python3
+  162  wget -v
+  163  wget -V
+  164  wget --version
+  165  chromium
+  166  si chromium >= 59
+  167  si chromium
+  168  git
+  169  curl
+  170  si youtube-dl
+  171  ~
+  172  cd ~
+  173  cd ArchiveBox/
+  174  ./bin/setup
+  175  ls -a
+  176  cd bin
+  177  ./setup.sh 
+  178  sudo ./setup.sh 
+  179  pip install python3-distutils
+  180  cd ~
+  181  python3 --version | head -n 1 &&  git --version | head -n 1 &&  wget --version | head -n 1 &&  curl --version | head -n 1 &&  youtube-dl --version | head -n 1 &&  echo "[√] All dependencies installed."
+  182  curl -fsSL https://get.docker.com | bash -s docker --mirror Aliyun
+  183  sd
+  184  sudo pkill -KILL appstreamcli
+  185  wget -P /tmp https://launchpad.net/ubuntu/+archive/primary/+files/appstream_0.9.4-1ubuntu1_amd64.deb https://launchpad.net/ubuntu/+archive/primary/+files/libappstream3_0.9.4-1ubuntu1_amd64.deb
+  186  sudo dpkg -i /tmp/appstream_0.9.4-1ubuntu1_amd64.deb /tmp/libappstream3_0.9.4-1ubuntu1_amd64.deb
+  187  sd
+  188  sudo apt-get install     apt-transport-https     ca-certificates     curl     software-properties-common
+  189  sudo apt-get remove libappstream3
+  190  sd
+  191  cd /etc/apt/
+  192  vim sources.list
+  193  sdsg
+  194  rm /usr/bin/appstreamcli
+  195  sudo rm /usr/bin/appstreamcli
+  196  cd ~
+  197  cd /tmp && mkdir asfix
+  198  cd asfix
+  199  wget https://launchpad.net/ubuntu/+archive/primary/+files/appstream_0.9.4-1ubuntu1_amd64.deb
+  200  wget https://launchpad.net/ubuntu/+archive/primary/+files/libappstream3_0.9.4-1ubuntu1_amd64.deb
+  201  sudo dpkg -i *.deb
+  202  si libprotobuf-lite9v5 libxapian22v5
+  203  si libprotobuf-lite9v5
+  204  curl -fsSL https://get.docker.com | bash -s docker --mirror Aliyun
+  205  curl -sSL https://get.daocloud.io/docker | sh
+  206  si zsh
+  207  sudo dpkg -i *.deb
+  208  si libappstream3:amd64
+  209  si appstream
+  210  sudo apt --fix-broken install libappstream3 appstream
+  211  sudo apt --fix-broken install libappstream3
+  212  sudo apt --fix-broken install
+  213  sdsg
+  214  sudo apt-get remove --purge python-apt
+  215  sudo apt-get install python-apt -f
+  216  sudo find / -name "apt_pkg.cpython-35m-x86_64-linux-gnu.so"
+  217  cd /usr/lib/python3/dist-packages/
+  218  sudo cp apt_pkg.cpython-35m-x86_64-linux-gnu.so apt_pkg.cpython-36m-x86_64-linux-gnu.so 
+  219  sudo rm /usr/bin/python
+  220  python
+  221  python3
+  222  si python
+  223  si python2.7
+  224  history
+  225  ls -l /usr/bin | grep python
+  226  ln -s /usr/bin/python2 /usr/bin/python
+  227  sudo ln -s /usr/bin/python3.4 /usr/bin/python
+  228  python
+  229  sudo rm /usr/bin/python
+  230  sudo ln -s /usr/bin/python2 /usr/bin/python
+  231  python
+  232  sdsg
+  233  python3
+  234  sudo rm /usr/bin/python3
+  235  sudo ln -s /usr/bin/python3.6 /usr/bin/python3
+  236  sdsg
+  237  curl -fsSL https://get.docker.com | bash -s docker --mirror Aliyun
+  238  sd
+  239  sudo docker run hello-world
+  240  python3 --version | head -n 1 &&  git --version | head -n 1 &&  wget --version | head -n 1 &&  curl --version | head -n 1 &&  youtube-dl --version | head -n 1 &&  echo "[√] All dependencies installed."
+  241  cd ~
+  242  cd ArchiveBox/
+  243  docker run -v $PWD:/data -it nikisweeting/archivebox init
+  244  sudo docker run -v $PWD:/data -it nikisweeting/archivebox init
+  245  cd ..
+  246  cd ArchiveBox/
+  247  ls -a
+  248  ls -T
+  249  ls -a
+  250  ls -ll
+  251  cd bin
+  252  ls -a
+  253  cd ..
+  254  rm ArchiveBox/
+  255  rm -rf ArchiveBox/
+  256  gcl https://gitee.com/Linkeer365/ArchiveBox.git
+  257  cd ArchiveBox/
+  258  cd bin
+  259  ./setup.sh 
+  260  sudo ./setup.sh 
+  261  mkdir data && cd data
+  262  cd ..
+  263  rm -rf data
+  264  cd ..
+  265  mkdir data && cd data
+  266  docker run -v $PWD:/data -it nikisweeting/archivebox init
+  267  sudo docker run -v $PWD:/data -it nikisweeting/archivebox init
+  268  docker run -v $PWD:/data -it nikisweeting/archivebox add 'https://example.com'
+  269  sudo groupadd docker
+  270  sudo gpasswd -a ${USER} docker
+  271  sudo systemctl restart docker
+  272  sudo chmod a+rw /var/run/docker.sock
+  273  docker images
+  274  docker run -v $PWD:/data -it nikisweeting/archivebox add 'https://example.com'
+  275  docker run -v $PWD:/data -it nikisweeting/archivebox manage createsuperuser
+  276  cd data/
+  277  docker run -v $PWD:/data -it nikisweeting/archivebox manage createsuperuser
+  278  cd data
+  279  docker run -v $PWD:/data -it nikisweeting/archivebox manage createsuperuser
+  280  docker run -v $PWD:/data -it -p 8000:8000 nikisweeting/archivebox server 0.0.0.0:8000
+  281  archivebox add 'https://example.com'
+  282  docker run -v $PWD:/data -it nikisweeting/archivebox add 'https://example.com'
+  283  cd data
+  284  docker run -v $PWD:/data -it nikisweeting/archivebox add 'https://linkeer365.github.io/Linkeer365ColorfulLife2/'
+  285  docker run -v $PWD:/data -it nikisweeting/archivebox manage createsuperuser
+  286  cd data
+  287  docker run -v $PWD:/data -it -p 8000:8000 nikisweeting/archivebox server 0.0.0.0:8000
+  288  cd data
+  289  docker run -v $PWD:/data -it nikisweeting/archivebox add 'https://linkeer365.github.io/Linkeer365ColorfulLife2/2020/09/02/%E5%B0%8F%E7%88%B1%E5%90%8C%E5%AD%A6%E4%B8%8E%E6%88%91/'
+  290  docker run -v $PWD:/data -it -p 8000:8000 nikisweeting/archivebox server 0.0.0.0:8000
+  291  docker run -v $PWD:/data -it nikisweeting/archivebox add 'https://blog.csdn.net/myan/article/details/35500'
+  292  vb
+  293  history
+  294  vb
+  295  v
+  296  vb
+  297  sb
+  298  linkshow
+  299  linkadd https://linkeer365.github.io/Linkeer365ColorfulLife2/2020/09/02/%E5%B0%8F%E7%88%B1%E5%90%8C%E5%AD%A6%E4%B8%8E%E6%88%91/
+  300  linkshow
+  301  vb
+  302  sb
+  303  vb
+  304  sb
+  305  lad "https://www.zhihu.com/question/59174156/answer/168353742"
+  306  vb
+  307  sb
+  308  lad "https://www.zhihu.com/question/59174156/answer/168353742"
+  309  lad "https://www.douban.com/note/671559278/"
+  310  lsw
+  311  vim parallel.cpp
+  312  g++ parallel.cpp -o parallel.cpp 
+  313  si gcc
+  314  si build-essential
+  315  g++ -v
+  316  g++ parallel.cpp -o parallel
+  317  vim parallel.cpp 
+  318  g++ parallel.cpp -o parallel
+  319  g++ -o parallel parallel.cpp
+  320  ls
+  321  ./parallel
+  322  vim parallel.cpp
+  323  g++ -o parallel parallel.cpp
+  324  ./parallel
+  325  g++ -o parallel.out parallel.cpp
+  326  ./parallel.out
+  327  gcl git@github.com:Linkeer365/ubuntu_config.git
+  328  vb
+  329  cat ~/.bashrc >> ~/ubuntu_config/bashrc.bak
+  330  cd ubuntu_config/
+  331  ga. && gcm "2020年10月26日07:41:51" && gp
+  332  g++
+  333  si g++
+  334  cd ..
+  335  si g++
+  336  vb
+  337  cd 下载
+  338  ls
+  339  tar zxvf openmpi-1.6.5.tar.gz 
+  340  cd openmpi-1.6.5/
+  341  ./configure
+  342  sudo make all install
+  343  sudo gedit /etc/profile
+  344  source /etc/profile
+  345  cd examples/
+  346  make
+  347  mpirun -np 4 hello_c
+  348  cd ~
+  349  m
+  350  vim parallel.cpp
+  351  g++ parallel.cpp -o parallel.out
+  352  /.parallel.out
+  353  ./parallel.out
+  354  touch cc.c
+  355  vim cc.c
+  356  touch cc2.c
+  357  vim cc2.c
+  358  gcc cc.c -o mpi
+  359  gcc cc2.c -o pthread
+  360  ./mpi
+  361  ./pthread 
+  362  vim cc.c 
+  363  vim cc2.c
+  364  gcc cc2.c -o pthread
+  365  gcc cc.c -o mpi
+  366  ./mpi
+  367  ./pthread 
+  368  ls -a
+  369  mkdir see
+  370  rm -rf see
+  371  mkdir sse/csc4005/a3
+  372  mkdir sse
+  373  cd mkdir
+  374  cd sse
+  375  mkdir csc4005 && cd csc4005
+  376  mkdir a3 && cd a3
+  377  mkdir barnes-hut && cd barnes-hut
+  378  mkdir bin
+  379  cd bin
+  380  vim cc.c
+  381  gcc -o nbody_bh cc.c
+  382  cd ..
+  383  cls
+  384  clear
+  385  ./bin/nbody_bh 100000 0
+  386  ./bin/nbody_bh -h
+  387  vim cc.txt
+  388  dpkg --get-selections |grep linux-image
+  389  uname -a
+  390  sudo su
+  391  g++
+  392  g++ -v
+  393  gcc -v
+  394  vb
+  395  history
+  396  sudo apt install vim
+  397  vb
+  398  code
+  399  code cc.c
+  400  code vv.c
+  401  ls -a
+  402  rm cc.c cc2.c
+  403  rm vv.c
+  404  gdb
+  405  gcl vscode
+  406  gcl git@github.com:Linkeer365/vscode-template-for-c-cpp.git
+  407  cd vscode-template-for-c-cpp/
+  408  code hello-world.c
+  409  code
+  410  gdb -v
+  411  gdb help
+  412  which -a gdb
+  413  /usr/bin/gdb
+  414  code
+  415  fc-list
+  416  wget https://github.com/adobe-fonts/source-code-pro/archive/variable-fonts.tar.gz && tar zxvf variable-fonts.tar.gz && cp -r source-code-pro-variable-fonts /usr/share/fonts/ && fc-cache && fc-list | grep code
+  417  g++ -o heat_pthread runtime.cpp 
+  418  ./heat_pthread 100 12 1
+  419  gcc -o heat_pthread runtime.c
+  420  ./heat_pthread 100 12 1
+  421  gcc -o heat_pthread runtime.c
+  422  ./heat_pthread 100 12 1
+  423  cls
+  424  clear
+  425  cd ..
+  426  ./pthread/bin/heat_pthread 100 12 1;./pthread/bin/heat_pthread 100 12 1;
+  427  ./pthread/bin/heat_pthread 100 12 1;./pthread/bin/heat_pthread 1000 12 1;./pthread/bin/heat_pthread 100 12 1;
+  428  ./pthread/bin/heat_pthread 100 12 1;./pthread/bin/heat_pthread 1000 12 1;./pthread/bin/heat_pthread 10000 12 1;
+  429  cd pthread/bin/
+  430  g++ -o helper_info.cpp 
+  431  ls
+  432  g++ -o helper_info helper_info.cpp 
+  433  ./helper_info 
+  434  ./pthread/bin/heat_pthread 100 12 1;./pthread/bin/heat_pthread 1000 12 1;./pthread/bin/heat_pthread 10000 12 1;
+  435  ./helper_info 
+  436  clear
+  437  cd ./pthread/bin/
+  438  ./helper_info 
+  439  add-apt-repository ppa:avsm/ppa
+  440  sudo su
+  441  opam init
+  442  eval `opam config env`
+  443  opam update
+  444  opam install coq.8.9.1
+  445  opm
+  446  opam
+  447  coqc -v
+  448  ocaml
+  449  coq
+  450  sudo apt-get install m4
+  451  opam switch create with-coq 4.05.0
+  452  eval `opam config env`
+  453  eval $(opam env)
+  454  opam install opam-depext
+  455  opam-depext coq
+  456  opam pin add coq 8.11.0
+  457  opam install ocamlbuild
+  458  coqc -v
+  459  mkdir translate-coq && cd translate-coq
+  460  coqc -v
+  461  coqv 
+  462  coqc version
+  463  coqc -h
+  464  coqc -v
+  465  opam
+  466  opam show
+  467  opam repository
+  468  which coqtop
+  469  whereis coqtop
+  470  coqtop
+  471  coq
+  472  opam
+  473  opam list
+  474  coqc -v
+  475  eval `opam config env` && coqc -v
+  476  eval `opam config env` && coqtop
+  477  apt list
+  478  apt list | grep opam
+  479  ls ..
+  480  ls -a
+  481  dpkg --list | grep opam
+  482  apt list --instlled
+  483  apt list --installed
+  484  find / -name opam
+  485  whereis opam
+  486  cd /user/bin/opam
+  487  cd /user/bin
+  488  cd user/bin
+  489  cd usr/bin
+  490  cd usr
+  491  cd ..
+  492  cd usr/bin
+  493  cd ~
+  494  cd /usr/bin
+  495  opam
+  496  ls -a
+  497  whereis coq
+  498  whereis opam
+  499  eval `opam config env` && whereis coq
+  500  eval `opam config env` && coq
+  501  cd ~
+  502  eval `opam config env` && whereis coq
+  503  eval `opam config env` && coqtop
+  504  eval `opam config env` && whereis coqtop
+  505  whereis coqtop
+  506  eval `opam config env` && whereis coqtop
+  507  cd /home/mm/.opam/with-coq/bin
+  508  ls -a
+  509  coqtop
+  510  touch eg1.v
+  511  coqtop
+  512  eval `opam config env` && whereis coqtop
+  513  coqtop
+  514  cd /usr/local/bin
+  515  ls -a
+  516  history
+  517  code
+  518  vb
+  519  sudo apt-get install lxde
+  520  sudo apt-get install lubuntu-desktop 
+  521  sudo apt-get install lubuntu-desktop
+  522  sudo apt-get install lubuntu-gtk-core lubuntu-desktop lubuntu-gtk-desktop
+  523  lxde
+  524  sudo apt-get update
+  525  sudo apt-get install lxde
+  526  sudo apt-get install lubuntu-desktop
+  527  sudo apt-get install lxde
+  528  vim ~/.config/openbox/lxde-rc.xml
+  529  reboot
+  530  sudo apt-get install racket
+  531  racket
+  532  cd ..
+  533  mkdir Racket-prog && cd Racket-prog
+  534  raco pkg install racket-langserver
+  535  racket '/home/mm/Racket-prog/pp.rkt'
+  536  ls -a
+  537  cd 桌面
+  538  ls -a
+  539  mv VSCode vscode
+  540  ls -a
+  541  git
+  542  gcl git@github.com:lsy365/learnGit.git
+  543  cd learnGit/
+  544  ga.
+  545  gcm "2020年12月28日16:26:40"
+  546  gp
+  547  git config --global user.name "your_name"
+  548  git config --global user.email  "your_email"
+  549  ssh-keygen -t rsa -C "117010155@link.cuhk.edu.cn"
+  550  ssh-keygen -t rsa -C "564142445@qq.com"
+  551  ssh-add ~/.ssh/id_rsa_lsy365
+  552  rm /home/mm/.ssh/id_rsa_lsy365
+  553  ssh-add ~/.ssh/id_rsa_me
+  554  cd ~/.ssh/
+  555  ls -a
+  556  ssh-add id_rsa_me
+  557  ssh-add id_rsa_lsy365
+  558  ls -a -l
+  559  ssh-add ~/.ssh/id_rsa_work   
+  560  ssh-add
+  561  ssh-add ~/.ssh/id_rsa_lsy365
+  562  rm id_rsa_linkeer365.pub id_rsa_lsy365.pub 
+  563  ls
+  564  rm id_rsa_linkeer365
+  565  ls
+  566  vim id_rsa
+  567  git config
+  568  git config -l
+  569  ssh-keygen -t rsa -C "564142445@qq.com"
+  570  ssh-keygen -t rsa -C "117010155@link.cuhk.edu.cn"
+  571  ls -a
+  572  ssh-add ~/.ssh/id_rsa_linkeer365
+  573  touch config
+  574  vim config
+  575  ssh -T git@linkeer365.github.com
+  576  vim config
+  577  ssh -T git@linkeer365.github.com
+  578  vim config
+  579  ssh -T git@linkeer365.github.com
+  580  vim config
+  581  ssh -T git@linkeer365.github.com
+  582  ssh -T git@lsy365.github.com
+  583  vim config
+  584  ssh -T git@lsy365.github.com
+  585  ssh -T git@linkeer365.github.com
+  586  vim config
+  587  ls -a
+  588  ssh -T git@linkeer365.github.com
+  589  ssh -T git@github.com
+  590  vim config
+  591  ssh -T lsy365
+  592  vim config
+  593  ls -a
+  594  rm .config.swp 
+  595  vim config
+  596  ssh -T lsy365
+  597  ssh-add -D
+  598  ssh-add id_rsa_linkeer365
+  599  ssh-add id_rsa_lsy365
+  600  ssh -T lsy365
+  601  ssh -T linkeer365
+  602  vim id_rsa_lsy365
+  603  gedit id_rsa_lsy365
+  604  vim id_rsa_lsy365.pub
+  605  cd .ssh
+  606  gedit id_rsa_lsy365.pub
+  607  ssh -T lsy365
+  608  ssh-add id_rsa_lsy365
+  609  gedit id_rsa_linkeer365.pub
+  610  ssh-add id_rsa_linkeer365
+  611  ssh -T linkeer365
+  612  ssh -T linkeer365 && ssh -T lsy365
+  613  ssh -T lsy365
+  614  vb
+  615  vim config
+  616  cd .ssh
+  617  vim config 
+  618  gcl https://github.com/jawil/notes
+  619  ga.
+  620  mv notes ../
+  621  cd ..
+  622  cd notes
+  623  ga.
+  624  gcm "2020年12月28日17:19:04"
+  625  gp
+  626  gcl https://github.com/Linkeer365/autoFetch_Luomapan
+  627  mv autoFetch_Luomapan/ ../
+  628  ls -a
+  629  cd ..
+  630  cd autoFetch_Luomapan/
+  631  touch pp.txt
+  632  ga.
+  633  gcm "2020年12月28日17:19:04"
+  634  gp
+  635  cd ..
+  636  rm autoFetch_Luomapan/ notes/
+  637  rm -rf autoFetch_Luomapan/ notes/
+  638  ls -a
+  639  sudo gedit /etc/default/grub
+  640  sudo gedit /etc/rc.local
+  641  ls /lib/systemd/system
+  642  gedit /lib/systemd/system/rc.local.service 
+  643  sudo apt-get install preload
+  644  sudo apt-get install apt-fast
+  645  sudo apt-get install tlp tlp-rdw
+  646  sudo tlp start
+  647  sudo apt-get install indicator-cpufreq
+  648  vb
+  649  sb
+  650  si tilix
+  651  sudo aptitude help
+  652  vb
+  653  sb
+  654  si tilix
+  655  tilix
+  656  pip3 install python-fuzzywuzzy
+  657  pip3 install fuzzywuzzy
+  658  si ulauncher
+  659  si albert
+  660  si indicator-multiload
+  661  si screenfetch
+  662  screenfetch
+  663  curl wttr.in
+  664  curl wttr.in help
+  665  curl wttr.in/xiamen
+  666  pip3
+  667  pip3 install pip3 -U
+  668  pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
+  669  pip3 config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
+  670  pip -v
+  671  pip --version
+  672  pip3 install pip3 -U
+  673  pip3 install -i https://pypi.tuna.tsinghua.edu.cn/simple pip3 -U
+  674  mkdir ~/.pip
+  675  cd ~/.pip
+  676  gedit ~/.pip/pip.conf
+  677  pip3 install NetEase-MusicBox
+  678  si mpg123
+  679  musicbox
+  680  pip3 install -U NetEase-MusicBox
+  681  musicbox
+  682  cd ~
+  683  musicbox
+  684  whereis musicbox
+  685  cd /etc
+  686  whereis musicbox
+  687  ls -l -a
+  688  tail -f ~/.local/share/netease-musicbox/musicbox.log
+  689  si mpg123
+  690  mpg123
+  691  pip3 install NetEase-MusicBox
+  692  musicbox
+  693  cd ~
+  694  musicbox
+  695  musicboxNetEase-MusicBox
+  696  NetEase-MusicBox
+  697  ls -a
+  698  musicbox
+  699  /usr/bin/musicbox
+  700  cd /usr/bin
+  701  musicbox
+  702  cd ~/.local/bin/
+  703  ls -a
+  704  musicbox
+  705  ./musicbox
+  706  sudo ln -s /home/niuhe/.local/bin/musicbox /usr/bin/musicbox
+  707  cd ~
+  708  sudo ln -s /home/niuhe/.local/bin/musicbox ~/musicbox
+  709  musicbbox
+  710  musicbox
+  711  ./musicbox
+  712  cd ~/.local/bin/
+  713  sudo ln ~/.local/bin/musicbox /usr/bin/musicbox
+  714  rm /usr/bin/musicbox
+  715  sudo rm /usr/bin/musicbox
+  716  sudo ln ~/.local/bin/musicbox /usr/bin/musicbox
+  717  sudo ln -s ~/.local/bin/musicbox /usr/bin/musicbox
+  718  cd ~
+  719  musicbox
+  720  si axel
+  721  dpkg-query -l
+  722  si ubuntu-cleaner
+  723  si simplescreenrecorder
+  724  si caffeine
+  725  zazu
+  726  jobs
+  727  ps
+  728  cd translate-coq/
+  729  git init
+  730  ls -a
+  731  cd ..
+  732  mkdir thanks
+  733  cd thanks
+  734  git init
+  735  cd .git
+  736  ls -a
+  737  vim config 
+  738  vb
+  739  sb
+  740  cd ..
+  741  mkdir thanks2
+  742  cd thanks2/
+  743  gi
+  744  cat hsbdka >> ReadME.md
+  745  echo hsbdka >> ReadME.md
+  746  vim ReadME.md 
+  747  ga.
+  748  gcm "2020年12月28日21:10:59"
+  749  gp
+  750  cd ..
+  751  rm -rf thanks2/
+  752  cd ..
+  753  rm -rf thanks/
+  754  ls 
+  755  cd ubuntu_config/
+  756  ls -a
+  757  vim README.md 
+  758  touch history
+  759  touch bashrc
+  760  vb
+  761  sb
+  762  mv history history.txt
+  763  mv bashrc bashrc.txt
+  764  echo history >> history.txt 
+  765  vim history.txt 
+  766  cat history >> history.txt 
+  767  echo $(history) >> history.txt 
+  768  vim history.txt 
+  769  history
+  770  echo -e
+  771  echo help
+  772  man echo
+  773  echo -e $(history) >> history.txt 
+  774  vim history.txt 
+  775  rm history.txt 
+  776  touch history.txt
+  777  echo $(history -p) >> history.txt 
+  778  vim history.txt 
+  779  man history
+  780  history > history.txt 
+  781  vim history.txt 
+  782  vb
+  783  touch other_actions.txt
+  784  sb
+  785  bhb

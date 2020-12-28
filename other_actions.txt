@@ -1,0 +1,6 @@
+# 2020年12月28日21:47:44
+
+安装Zazu ，类似于win下的listary
+换源之后很多时候不必设置ppa，因为很多ppa还没有清华源快
+一台机器上设置多个github账号的办法，详见https://github.com/jawil/notes/issues/2
+
