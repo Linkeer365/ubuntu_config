@@ -13,6 +13,13 @@ alias gp="git push"
 alias gl="git pull"
 alias gi="git init"
 
+# upload github
+
+ug(){
+	ga.
+	gcm $(date "+%Y-%m-%d_%H:%M:%S")
+	gp
+}
 
 # self designed alias
 
@@ -39,6 +46,7 @@ lsw(){
 # bhb = backup history and bashrc
 
 bhb(){
+	cd ~/ubuntu_config
 	history > ~/ubuntu_config/history.txt
 	cat ~/.bashrc > ~/ubuntu_config/bashrc.txt
 	echo "Backup History and Bashrc!"
@@ -47,6 +55,7 @@ bhb(){
 # roa = record other actions
 
 roa(){
+	cd ~/ubuntu_config
 	vim ~/ubuntu_config/other_actions.txt
 }
 
