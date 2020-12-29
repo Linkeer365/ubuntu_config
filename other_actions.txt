@@ -4,3 +4,11 @@
 换源之后很多时候不必设置ppa，因为很多ppa还没有清华源快
 一台机器上设置多个github账号的办法，详见https://github.com/jawil/notes/issues/2
 
+# 2020年12月30日00:00:59
+
+使用opam安装coq
+
+1. ppa还是要注意的，有时会影响到包版本
+2. 从opam安装coq时，最耗时的步骤是在opam init与opam-depext coq这一步（大约5-10分钟都是可以忍受的）
+3. 一共参考了这两篇https://zhuanlan.zhihu.com/p/124333375
+和https://blog.csdn.net/ReimuYk/article/details/104108182和https://www.cnblogs.com/sjjsxl/p/6809749.html，其他的文章不用看了
