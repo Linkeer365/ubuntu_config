@@ -12,3 +12,10 @@
 2. 从opam安装coq时，最耗时的步骤是在opam init与opam-depext coq这一步（大约5-10分钟都是可以忍受的）
 3. 一共参考了这两篇https://zhuanlan.zhihu.com/p/124333375
 和https://blog.csdn.net/ReimuYk/article/details/104108182和https://www.cnblogs.com/sjjsxl/p/6809749.html，其他的文章不用看了
+
+# 2020年12月30日20:34:05
+
+云主机就是快，用起来真心是舒服很多...
+再把vim学起来吧，然后记得把.vimrc也备份到github上面...
+
+
