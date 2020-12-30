@@ -21,6 +21,8 @@ ug(){
 	gp
 }
 
+alias "ub"="cp ~/.bashrc ~/ubuntu_config/bashrc.txt && cd ~/ubuntu_config && ug"
+
 # self designed alias
 
 alias sd="sudo aptitude update"
@@ -50,6 +52,7 @@ bhb(){
 	history > ~/ubuntu_config/history.txt
 	cat ~/.bashrc > ~/ubuntu_config/bashrc.txt
 	echo "Backup History and Bashrc!"
+	ug
 }
 
 # roa = record other actions
